@@ -1,0 +1,169 @@
+
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* General Page Layout */
+.page {
+  padding: 20px;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Services */
+.services {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+/* Contact */
+.contact-page {
+  display: flex;
+  gap: 40px;
+}
+
+.contact-info {
+  width: 40%;
+}
+
+.contact-form {
+  width: 60%;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+/* Home */
+.home-page {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* About */
+.about-page {
+  text-align: center;
+}
+
+.about-page .btn {
+  display: inline-block;
+  margin-top: 10px;   /* adds space above the button */
+}
+.about-img {
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+/* Button Style (for Home & About) */
+.btn {
+  padding: 5px 20px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #555;
+}
+
+.about-img {
+  border-radius: 50%;
+  margin: 20px 0;
+  width: 150px;  /* adjust size */
+  height: 150px; /* adjust size */
+  object-fit: cover;
+}
