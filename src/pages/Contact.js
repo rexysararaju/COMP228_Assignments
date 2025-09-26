@@ -31,10 +31,10 @@ function Contact() {
     <div className="page contact-page">
       <div className="contact-info">
         <h2>Contact Information</h2>
-        <p>Email: yourname@example.com</p>
+        <p>Email: alex.Johnson@example.com</p>
         <p>Phone: +1 234 567 890</p>
-        <p>LinkedIn: linkedin.com/in/yourname</p>
-        <p>GitHub: github.com/yourname</p>
+        <p>LinkedIn: linkedin.com/in/alexjohnson</p>
+        <p>GitHub: github.com/alexjohnson</p>
       </div>
 
       <div className="contact-form">
