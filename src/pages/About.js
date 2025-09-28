@@ -8,18 +8,18 @@ function About() {
     <div className="page about-page">
       <h1>About Me</h1>
       <img 
-        src="/Image1.png" 
+        src="/protfolioPic.jpg" 
         alt="My Portrait"
         className="about-img"
       />
       <p>
-        Hi, my name is Alex Johnson. I am a software engineering student passionate 
+        Hi, my name is Rexy Sara Raju. I am a software engineering student passionate 
         about building modern web applications. I enjoy working with React, JavaScript, 
         and databases.
       </p>
 
       <p>
-        <a href="/Software_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">
+        <a href="/Rexy_Sara_Raju_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">
           📄 View My Resume
         </a>
       </p>

@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Education from "./pages/Education";  
 import "./App.css"; // Import CSS file
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
       <nav>
         {/* Logo */}
         <div className="logo">
-          RSR Portfolio
+          <img src="/RLogo.png" alt="Logo" className="logo-img" />
         </div>
 
         {/* Navigation Links */}
@@ -28,6 +29,7 @@ function App() {
           <Link to="/projects">Projects</Link>
           <Link to="/services">Services</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/education">Education</Link>
         </div>
       </nav>
 
@@ -38,6 +40,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/education" element={<Education />} />
       </Routes>
     </Router>
   );

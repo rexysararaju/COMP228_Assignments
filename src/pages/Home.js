@@ -6,11 +6,12 @@
 import { Link } from "react-router-dom";
 
 function Home() {
+  // Simple homepage with a welcome message and a button to navigate to the About page
   return (
     <div style={{ padding: "20px" }}>
       <h1>Welcome to My Portfolio</h1>
       <p>
-       Hi, I’m Alex Johnson. I’m passionate about web development and love building
+       Hi, I’m Rexy Sara Raju. I’m passionate about web development and love building
         modern web applications.
       </p>
       <Link to="/about">

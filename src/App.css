@@ -8,11 +8,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
-nav .logo {
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
+nav .logo img {
+  width: 60px;     
+  height: auto;   
 }
 
 nav a {
@@ -166,4 +164,12 @@ nav a:hover {
   width: 150px;  /* adjust size */
   height: 150px; /* adjust size */
   object-fit: cover;
+}
+
+.service-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 15px;
 }
